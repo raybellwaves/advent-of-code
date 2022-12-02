@@ -108,7 +108,8 @@ print(sum(sorted(list(d.values()))[-3:]))
 
 
 with open("day1.txt") as f:
-    inputs = f.readlines()
+    # inputs = f.readlines()
+    inputs = f.read()    
 d = {}
 max_elf_calorie_count = 0
 elf_number = 0
